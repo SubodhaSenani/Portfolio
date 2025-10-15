@@ -1,0 +1,178 @@
+/* --- Modern Landing Page --- */
+.new-landing {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+/* Background Gradient Animation */
+.animated-bg {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, #241d3a, #3a2678, #9d79d6, #1e1833);
+  background-size: 400% 400%;
+  animation: gradientMove 12s ease infinite;
+  z-index: 0;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Hero Content */
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 900px;
+  padding:20px;
+}
+
+.hero-title {
+  font-size: 3.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  
+}
+
+.highlight {
+  background: linear-gradient(135deg, #ffb6ff, #b872ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+  margin-bottom: 3rem;
+  color: #e0e0e0;
+  border-right: 2px solid #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: typing 5s steps(35) infinite alternate, blink 0.8s infinite;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* Skill Cards */
+.skills-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.skill-card {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(20px);
+  border-radius: 18px;
+  padding: 1.8rem 1.2rem;
+  width: 260px;
+  transition: all 0.4s ease;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+  background: rgba(255, 255, 255, 0.18);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+.skill-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.skill-icon.react {
+  color: #61dafb;
+}
+.skill-icon.figma {
+  color: #f24e1e;
+}
+.skill-icon.wordpress {
+  color: #21759b;
+}
+
+.skill-card h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.skill-card p {
+  font-size: 0.95rem;
+  color: #f0f0f0;
+}
+
+/* Call-to-Action Button */
+.cta-btn {
+  display: inline-block;
+  padding: 0.9rem 2.2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #7c4dff, #4a148c);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.cta-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(74, 20, 140, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.6rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .skills-container {
+    gap: 1rem;
+  }
+
+  .skill-card {
+    width: 90%;
+  }
+}
