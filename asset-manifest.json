@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/SubodhaSenani/Portfolio/static/css/main.363a44ba.css",
+    "main.js": "/SubodhaSenani/Portfolio/static/js/main.6c7b07d9.js",
+    "static/media/login.png": "/SubodhaSenani/Portfolio/static/media/login.481007b683680bf43213.png",
+    "static/media/about.png": "/SubodhaSenani/Portfolio/static/media/about.41c11e0f0ba6ceb3f16e.png",
+    "static/media/web 2.png": "/SubodhaSenani/Portfolio/static/media/web 2.dc8ac3439832a125807e.png",
+    "static/media/wpDev.png": "/SubodhaSenani/Portfolio/static/media/wpDev.13959c62df663cf3e2b3.png",
+    "static/media/fDev.png": "/SubodhaSenani/Portfolio/static/media/fDev.b6a0d1b0a6c241f1a2b3.png",
+    "static/media/ui.png": "/SubodhaSenani/Portfolio/static/media/ui.c5702be7ff1b1a1d730e.png",
+    "static/media/restaurant menu.png": "/SubodhaSenani/Portfolio/static/media/restaurant menu.d5ab9de9b7a74704c6d3.png",
+    "static/media/temp.png": "/SubodhaSenani/Portfolio/static/media/temp.fb484965375007c8a900.png",
+    "static/media/profile.png": "/SubodhaSenani/Portfolio/static/media/profile.61fc5eae2b5a0ba22b71.png",
+    "static/media/Subodha_Resume.pdf": "/SubodhaSenani/Portfolio/static/media/Subodha_Resume.9fadebfaf4c459d77bdc.pdf",
+    "static/media/crud.JPG": "/SubodhaSenani/Portfolio/static/media/crud.4c8c2a3564eedd3ff962.JPG",
+    "static/media/denta.JPG": "/SubodhaSenani/Portfolio/static/media/denta.172393d3085b687be7d0.JPG",
+    "static/media/estore.JPG": "/SubodhaSenani/Portfolio/static/media/estore.feafa62c231772625d76.JPG",
+    "static/media/ms.JPG": "/SubodhaSenani/Portfolio/static/media/ms.f99a7c1d8567b1837356.JPG",
+    "static/media/wordpress.JPG": "/SubodhaSenani/Portfolio/static/media/wordpress.4951ba508fa06225cde2.JPG",
+    "static/media/risk.JPG": "/SubodhaSenani/Portfolio/static/media/risk.30c2ac2d8644b052f559.JPG",
+    "static/media/ba.JPG": "/SubodhaSenani/Portfolio/static/media/ba.a5b23edde32286ba2db5.JPG",
+    "static/media/gads.JPG": "/SubodhaSenani/Portfolio/static/media/gads.756b58f98e3e113989b5.JPG",
+    "static/media/python UOM.jpg": "/SubodhaSenani/Portfolio/static/media/python UOM.366707c34aed13f519b9.jpg",
+    "index.html": "/SubodhaSenani/Portfolio/index.html",
+    "main.363a44ba.css.map": "/SubodhaSenani/Portfolio/static/css/main.363a44ba.css.map",
+    "main.6c7b07d9.js.map": "/SubodhaSenani/Portfolio/static/js/main.6c7b07d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.363a44ba.css",
+    "static/js/main.6c7b07d9.js"
+  ]
+}
