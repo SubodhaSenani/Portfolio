@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.13da5e04.css",
-    "main.js": "/Portfolio/static/js/main.7cfbb868.js",
+    "main.js": "/Portfolio/static/js/main.8c181ed2.js",
     "static/media/login.png": "/Portfolio/static/media/login.481007b683680bf43213.png",
     "static/media/about.png": "/Portfolio/static/media/about.41c11e0f0ba6ceb3f16e.png",
     "static/media/web 2.png": "/Portfolio/static/media/web 2.dc8ac3439832a125807e.png",
@@ -11,7 +11,7 @@
     "static/media/restaurant menu.png": "/Portfolio/static/media/restaurant menu.d5ab9de9b7a74704c6d3.png",
     "static/media/temp.png": "/Portfolio/static/media/temp.fb484965375007c8a900.png",
     "static/media/profile.png": "/Portfolio/static/media/profile.61fc5eae2b5a0ba22b71.png",
-    "static/media/Subodha_Resume.pdf": "/Portfolio/static/media/Subodha_Resume.9fadebfaf4c459d77bdc.pdf",
+    "static/media/Subodha_Resume.pdf": "/Portfolio/static/media/Subodha_Resume.557fd46d55130fa795fa.pdf",
     "static/media/crud.JPG": "/Portfolio/static/media/crud.4c8c2a3564eedd3ff962.JPG",
     "static/media/denta.JPG": "/Portfolio/static/media/denta.172393d3085b687be7d0.JPG",
     "static/media/estore.JPG": "/Portfolio/static/media/estore.feafa62c231772625d76.JPG",
@@ -23,10 +23,10 @@
     "static/media/python UOM.jpg": "/Portfolio/static/media/python UOM.366707c34aed13f519b9.jpg",
     "index.html": "/Portfolio/index.html",
     "main.13da5e04.css.map": "/Portfolio/static/css/main.13da5e04.css.map",
-    "main.7cfbb868.js.map": "/Portfolio/static/js/main.7cfbb868.js.map"
+    "main.8c181ed2.js.map": "/Portfolio/static/js/main.8c181ed2.js.map"
   },
   "entrypoints": [
     "static/css/main.13da5e04.css",
-    "static/js/main.7cfbb868.js"
+    "static/js/main.8c181ed2.js"
   ]
 }
